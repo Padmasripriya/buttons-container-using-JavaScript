@@ -1,0 +1,10 @@
+.buttonContainer {
+    width: 75%; /* this width is the overall width of the button container and it is set 75% relative to the document width */
+    margin:0 auto;
+}
+
+.buttonContainer > .buttonClass {
+    width: 30%; /* this width is set 30% relative to the button container width */
+    height: 48px;
+    font-size: 24px;
+}
